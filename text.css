@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.section{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.colom {
+    width: 32%;
+    margin-right: 1px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 5px 5px gray; */
+    float: left;
+}
+.heading{
+    padding: 0px 10px 5px 10px;
+}
+.servic_d{
+    padding: 0px 10px 15px 10px;
+}
+.btn{
+    width: 100%;
+   
+    text-align: center;
+}
+.read_more{
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    
+}
+
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    
+.colom {
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 5px 5px gray; */
+    
+}
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+     
+.colom {
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 5px 5px gray; */
+    
+}
+    
+  }
